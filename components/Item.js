@@ -2,14 +2,14 @@ import Image from 'next/image'
 
 const Item = (props) => {
   return (
-    <div className='card text-center bg-transparent border-0 animate__animated animate__bounce'>
+    <div className='card text-center bg-transparent border-0'>
       <div className='position-relative w-100'>
         <Image
           className='image-fluid rounded-pill mx-auto w-100'
           src={props.image}
           alt={props.name}
-          width='100%'
-          height='100%'
+          width='100'
+          height='100'
           layout='responsive'
           objectFit='cover'
         />

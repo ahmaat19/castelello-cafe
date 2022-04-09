@@ -11,8 +11,8 @@ const Items = () => {
   return (
     <div className='row gy-3 py-3 px-2'>
       {filteredItems.length > 0 ? (
-        filteredItems.map((item) => (
-          <div className='col-lg-2 col-md-3 col-sm-4 col-6' key={item.id}>
+        filteredItems.map((item, index) => (
+          <div className='col-lg-2 col-md-3 col-sm-4 col-6' key={index}>
             <Item {...item} />
           </div>
         ))
