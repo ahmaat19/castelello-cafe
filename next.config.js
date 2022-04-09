@@ -6,6 +6,7 @@ const nextConfig = {
       'images.immediate.co.uk',
       'drive.google.com',
       'upload.wikimedia.org',
+      'castello.s3.us-west-004.backblazeb2.com',
     ],
   },
 }

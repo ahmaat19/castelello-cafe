@@ -17,13 +17,13 @@ export const categories = [
   { name: 'Main Dishes', slug: 'main-dishes' },
 ]
 
-const imageUrl = 'https://drive.google.com/uc?export=view&id='
+const imageUrl = 'https://castello.s3.us-west-004.backblazeb2.com'
 export const items = [
   {
     categorySlug: 'coffee',
     name: 'Espresso',
     price: '$1.5',
-    image: `${imageUrl}1LhIEfkSjbmZrsEKimlYU0L5kczyx-YQi`,
+    image: `${imageUrl}/283A1664.JPG`,
   },
   {
     categorySlug: 'coffee',
@@ -35,31 +35,31 @@ export const items = [
     categorySlug: 'coffee',
     name: 'Americano',
     price: '$1.5',
-    image: `${imageUrl}1LWAQXWxK7uIx0ioiq-DiFVE8RA68QtsR`,
+    image: `${imageUrl}/283A1630.JPG`,
   },
   {
     categorySlug: 'coffee',
     name: 'Cappuccino',
     price: '$2',
-    image: `${imageUrl}1o9d4os3YZbQ6Y_TlJ8HhuAkFHspwUkkm`,
+    image: `${imageUrl}/283A1514.JPG`,
   },
   {
     categorySlug: 'coffee',
     name: 'Coffee Late',
     price: '$2',
-    image: `${imageUrl}1kO1pt3_TbvgYQaAjMA4hWqQ9_Nwo7dT3`,
+    image: `${imageUrl}/283A1874.JPG`,
   },
   {
     categorySlug: 'coffee',
     name: 'Coffee Mocha',
     price: '$2',
-    image: `${imageUrl}1zG-_D7udJlNsIAS_gCQXVppPR5HqPiwA`,
+    image: `${imageUrl}/283A1654.JPG`,
   },
   {
     categorySlug: 'coffee',
     name: 'Turkish Coffee',
     price: '$1.5',
-    image: `${imageUrl}1UyGDhG3HxVF8WeLKHBOTpIEmIC-UfsE3`,
+    image: `${imageUrl}/283A1650.JPG`,
   },
   {
     categorySlug: 'coffee',
@@ -71,13 +71,13 @@ export const items = [
     categorySlug: 'tea',
     name: 'Castello tea',
     price: '$3.5',
-    image: `${imageUrl}1hVO5v6lV0aqQuipSKy-h_a6jQRxngKXG`,
+    image: `${imageUrl}/283A1590.JPG`,
   },
   {
     categorySlug: 'tea',
     name: 'Turkish tea',
     price: '$5',
-    image: `${imageUrl}115KtEp1CfahhKT70FNV2DpmxEssWdWnm`,
+    image: `${imageUrl}/283A1629.JPG`,
   },
   {
     categorySlug: 'tea',
@@ -96,5 +96,42 @@ export const items = [
     name: 'Dhako jabiye tea',
     price: '$2',
     image: `https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png`,
+  },
+  {
+    categorySlug: 'cold-coffee',
+    name: 'Spanish tea',
+    price: '$2.5',
+    image: `${imageUrl}/283A1752.JPG`,
+  },
+  {
+    categorySlug: 'cold-coffee',
+    name: 'Carmel Late',
+    price: '$2.5',
+    image: `${imageUrl}/283A1777.JPG`,
+  },
+  {
+    categorySlug: 'cold-coffee',
+    name: 'Ice Caramel Mocha',
+    price: '$2.5',
+    image: `${imageUrl}/283A1764.JPG`,
+  },
+  {
+    categorySlug: 'cold-tea',
+    name: 'Peach iced tea',
+    price: '$2',
+    image: `${imageUrl}/283A1672.JPG`,
+  },
+  {
+    categorySlug: 'cold-tea',
+    name: 'Peach and Chai',
+    price: '$2',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png',
+  },
+  {
+    categorySlug: 'cold-tea',
+    name: 'Mango Iced Tea',
+    price: '$2.5',
+    image: `${imageUrl}/283A1674.JPG`,
   },
 ]
