@@ -18,6 +18,9 @@ export const categories = [
 ]
 
 const imageUrl = 'https://castello.s3.us-west-004.backblazeb2.com'
+
+const noImage =
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png'
 export const items = [
   {
     categorySlug: 'coffee',
@@ -29,7 +32,7 @@ export const items = [
     categorySlug: 'coffee',
     name: 'Macchiato',
     price: '$1.5',
-    image: `https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png`,
+    image: noImage,
   },
   {
     categorySlug: 'coffee',
@@ -65,7 +68,7 @@ export const items = [
     categorySlug: 'coffee',
     name: 'Hot chocolate',
     price: '$2.5',
-    image: `https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png`,
+    image: noImage,
   },
   {
     categorySlug: 'tea',
@@ -83,19 +86,19 @@ export const items = [
     categorySlug: 'tea',
     name: 'Somali Tea',
     price: '$1',
-    image: `https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png`,
+    image: noImage,
   },
   {
     categorySlug: 'tea',
     name: 'Dawa tea',
     price: '$2',
-    image: `https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png`,
+    image: noImage,
   },
   {
     categorySlug: 'tea',
     name: 'Dhako jabiye tea',
     price: '$2',
-    image: `https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png`,
+    image: noImage,
   },
   {
     categorySlug: 'cold-coffee',
@@ -125,13 +128,259 @@ export const items = [
     categorySlug: 'cold-tea',
     name: 'Peach and Chai',
     price: '$2',
-    image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png',
+    image: noImage,
   },
   {
     categorySlug: 'cold-tea',
     name: 'Mango Iced Tea',
     price: '$2.5',
     image: `${imageUrl}/283A1674.JPG`,
+  },
+
+  {
+    categorySlug: 'shakes',
+    name: 'Vanilla shake',
+    price: '$3',
+    image: `${imageUrl}/283A1944.JPG`,
+  },
+  {
+    categorySlug: 'shakes',
+    name: 'Strawberry Shake',
+    price: '$3.5',
+    image: `${imageUrl}/283A1448.JPG`,
+  },
+  {
+    categorySlug: 'shakes',
+    name: 'Chocolate Shake',
+    price: '$3.5',
+    image: `${imageUrl}/283A1564.JPG`,
+  },
+  {
+    categorySlug: 'shakes',
+    name: 'Oreo Shake',
+    price: '$3.5',
+    image: `${imageUrl}/283A1495.JPG`,
+  },
+  {
+    categorySlug: 'shakes',
+    name: 'Lotus shake',
+    price: '$3.5',
+    image: `${imageUrl}/283A1401.JPG`,
+  },
+
+  {
+    categorySlug: 'smoothies',
+    name: 'Mango Smoothie',
+    price: '$2',
+    image: `${imageUrl}/283A1727.JPG`,
+  },
+  {
+    categorySlug: 'smoothies',
+    name: 'Kiwi Smoothie',
+    price: '$0',
+    image: noImage,
+  },
+  {
+    categorySlug: 'smoothies',
+    name: 'Bear passion smoothie',
+    price: '$0',
+    image: noImage,
+  },
+
+  {
+    categorySlug: 'majito',
+    name: 'Ice blueberry',
+    price: '$2.5',
+    image: `${imageUrl}/283A1387.JPG`,
+  },
+  {
+    categorySlug: 'majito',
+    name: 'Ice Strawberry',
+    price: '$2.5',
+    image: `${imageUrl}/283A1372.JPG`,
+  },
+  {
+    categorySlug: 'majito',
+    name: 'Mango green apple',
+    price: '$2.5',
+    image: `${imageUrl}/283A1380.JPG`,
+  },
+
+  {
+    categorySlug: 'frappe',
+    name: 'Caramel Frappuccino',
+    price: '$3.5',
+    image: noImage,
+  },
+  {
+    categorySlug: 'frappe',
+    name: 'Green Tea Frappuccino',
+    price: '$3.5',
+    image: noImage,
+  },
+  {
+    categorySlug: 'frappe',
+    name: 'Mocha Frappaccino',
+    price: '$3.5',
+    image: noImage,
+  },
+  {
+    categorySlug: 'frappe',
+    name: 'Hazelnut Frappaccino',
+    price: '$3',
+    image: noImage,
+  },
+  {
+    categorySlug: 'frappe',
+    name: 'Pistachio Frappe',
+    price: '$3.5',
+    image: noImage,
+  },
+
+  {
+    categorySlug: 'juice',
+    name: 'Avocado',
+    price: '$2.5',
+    image: `${imageUrl}/283A0316.JPG`,
+  },
+  {
+    categorySlug: 'juice',
+    name: 'Mango',
+    price: '$2',
+    image: `${imageUrl}/283A1535.JPG`,
+  },
+  {
+    categorySlug: 'juice',
+    name: 'Spermuto',
+    price: '$2',
+    image: `${imageUrl}/283A0058.JPG`,
+  },
+  {
+    categorySlug: 'juice',
+    name: 'Lemonade',
+    price: '$1.5',
+    image: noImage,
+  },
+  {
+    categorySlug: 'juice',
+    name: 'Orange Juice',
+    price: '$3',
+    image: noImage,
+  },
+  {
+    categorySlug: 'juice',
+    name: 'Castello Cocktail',
+    price: '$3',
+    image: `${imageUrl}/283A1540.JPG`,
+  },
+  {
+    categorySlug: 'juice',
+    name: 'Carrot Orange Juice',
+    price: '$3',
+    image: noImage,
+  },
+  {
+    categorySlug: 'juice',
+    name: 'Pomegranate Juice',
+    price: '$2.5',
+    image: noImage,
+  },
+  {
+    categorySlug: 'juice',
+    name: 'Banana berry with honey',
+    price: '$2.5',
+    image: `${imageUrl}/283A1742.JPG`,
+  },
+  {
+    categorySlug: 'fruits',
+    name: 'Castello Fruit',
+    price: '$4',
+    image: noImage,
+  },
+
+  {
+    categorySlug: 'cakes',
+    name: 'Chocolate cheese cake',
+    price: '$4',
+    image: `${imageUrl}/283A2508.JPG`,
+  },
+  {
+    categorySlug: 'cakes',
+    name: 'White forest',
+    price: '$3.5',
+    image: `${imageUrl}/283A2452.JPG`,
+  },
+  {
+    categorySlug: 'cakes',
+    name: 'brown cake',
+    price: '$4',
+    image: `${imageUrl}/283A2496.JPG`,
+  },
+  {
+    categorySlug: 'cakes',
+    name: 'Strawberry forest',
+    price: '$3.5',
+    image: `${imageUrl}/283A2428.JPG`,
+  },
+  {
+    categorySlug: 'cakes',
+    name: 'Orio cheese cake',
+    price: '$4',
+    image: `${imageUrl}/283A2325.JPG`,
+  },
+  {
+    categorySlug: 'cakes',
+    name: 'Orio forest',
+    price: '$4',
+    image: `${imageUrl}/283A2438.JPG`,
+  },
+  {
+    categorySlug: 'cakes',
+    name: 'Strawberry cheese cake',
+    price: '$4',
+    image: `${imageUrl}/283A0489.JPG`,
+  },
+  {
+    categorySlug: 'cakes',
+    name: 'Lotus cheese cake',
+    price: '$4',
+    image: `${imageUrl}/283A2321.JPG`,
+  },
+  {
+    categorySlug: 'cakes',
+    name: 'Pinaapple cheese cake',
+    price: '$4',
+    image: `${imageUrl}/283A0493.JPG`,
+  },
+  {
+    categorySlug: 'cakes',
+    name: 'boddun',
+    price: '2.5',
+    image: `${imageUrl}/283A1956.JPG`,
+  },
+  {
+    categorySlug: 'cakes',
+    name: 'Black forest',
+    price: '$3.5',
+    image: `${imageUrl}/283A2414.JPG`,
+  },
+
+  {
+    categorySlug: 'ice-cream',
+    name: 'Castello Ice Cream',
+    price: '$3',
+    image: noImage,
+  },
+  {
+    categorySlug: 'ice-cream',
+    name: 'Ice Cream 3 Scope',
+    price: '$2.5',
+    image: noImage,
+  },
+  {
+    categorySlug: 'ice-cream',
+    name: 'Ice Cream 1 Scope',
+    price: '$1',
+    image: noImage,
   },
 ]
